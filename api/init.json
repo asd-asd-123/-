@@ -1,0 +1,99 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/welcome-2.html?t=1"
+  },
+  "logoInfo": {
+    "title": "就业跟踪",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "首页",
+      "icon": "fa fa-home",
+      "href": "page/welcome-2.html?t=1",
+      "target": "_self"
+    },
+    {
+      "title": "院系管理",
+      "icon": "fa fa-institution",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "专业管理",
+          "href": "shixi/major.html",
+          "icon": "fa fa-mortar-board",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "班级管理",
+      "icon": "fa fa-bars",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "添加班级",
+          "href": "shixi/addClass.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "班级信息维护",
+          "href": "shixi/findClass.html",
+          "icon": "fa fa-globe",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "学生管理",
+      "icon": "fa fa-home",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "添加学生",
+          "href": "shixi/addStudent.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "学生信息维护",
+          "href": "shixi/findStudent.html",
+          "icon": "fa fa-globe",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "合作企业管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "合作企业添加",
+          "href": "shixi/addCompany.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "合作企业维护",
+          "href": "shixi/findCompany.html",
+          "icon": "fa fa-globe",
+          "target": "_self"
+        },
+        {
+          "title": "专场招聘会维护",
+          "href": "shixi/company.html",
+          "icon": "fa fa-globe",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
